@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#41414C" />
-    <title>Pixel Python Musics</title>
+    <title>Background music</title>
   </head>
   <body id="page-index" style="background: #000;">
-    <audio src="/sounds/music.wav" controls autoplay loop />
+    <audio id="audio" src="/sounds/background.wav" controls autoplay loop />
   </body>
+
+  <script>
+      var audio = document.getElementById("audio");
+      audio.volume = 0.07;
+  </script>
 </html>
